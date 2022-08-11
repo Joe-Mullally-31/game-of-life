@@ -6,7 +6,7 @@ the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) patte
 
 ## Setup
 
-
+- Run `npm i` in this directory
 - The development server is started with `npm run dev`
 - All tests are run using `npm test`
   - Run only unit tests with `npm run test:unit` (these will pass to start
