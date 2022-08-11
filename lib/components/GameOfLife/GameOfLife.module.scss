@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vmin;
+
+  .gridControls {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+    .gridInputs {
+      display: flex;
+      justify-content: space-evenly;
+      padding: 30px;
+    }
+
+    .controlButtons {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 30px;
+    }
+
+    .controlElement {
+      padding-right: 10px;
+    }
+  }
+
+  .alive {
+    background-color: rgb(48, 204, 48);
+  }
+  .dead {
+    background-color: rgba(229, 105, 105, 0.858);
+  }
+}
