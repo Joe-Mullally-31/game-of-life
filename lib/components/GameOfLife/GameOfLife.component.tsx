@@ -75,7 +75,7 @@ export default function GameOfLife() {
               color="error"
               data-test="reset"
             >
-              Reset
+              Reset Game
             </Button>
           </div>
         </div>
